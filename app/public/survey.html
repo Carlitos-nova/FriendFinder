@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="text-center" style="border-bottom: 2px solid black">Survey Questions</h1>
+        <h2>About You</h2>
+        <br>
+        <h4>Your Name:(Required)</h4>
+            <input type="text" id="name" class="form-control" required> 
+            <h4>Link to Photo:(Required)</h4>
+                <input type="text" id="photo" class="form-control" required> 
+                <hr style="border-bottom: 2px solid black">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3>Question 1</h3>
+                                <h5>Are you friendly with other people.</h5>
+                                <form>
+                                    <select id="q1">
+                                        <option value="">-- Select --</option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select> 
+                                </form>
+                                <h3>Question 2</h3>
+                                <h5>Is it okay to explore with possibilities.</h5>
+                                <form>
+                                    <select id="q2">
+                                        <option value="">-- Select --</option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select> 
+                                </form>
+                                <h3>Question 3</h3>
+                                <h5>Is it fine to worry about others.</h5>
+                                <form>
+                                    <select id="q3">
+                                        <option value="">-- Select --</option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select> 
+                                </form>
+                                <h3>Question 4</h3>
+                                <h5>Do you like parties.</h5>
+                                <form>
+                                    <select id="q4">
+                                        <option value="">-- Select --</option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select> 
+                                </form>
+                                <h3>Question 5</h3>
+                                <h5>Is creativity an importance to society.</h5>
+                                <form>
+                                    <select id="q5">
+                                        <option value="">-- Select --</option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select> 
+                                </form>
+                                <h3>Question 6</h3>
+                                <h5>I dislike other people's opinions.</h5>
+                                <form>
+                                    <select id="q6">
+                                        <option value="">-- Select --</option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select> 
+                                </form>
+                                <h3>Question 7</h3>
+                                <h5>I show appreciation over others.</h5>
+                                <form>
+                                    <select id="q7">
+                                        <option value="">-- Select --</option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select> 
+                                </form>
+                                <h3>Question 8</h3>
+                                <h5>I dislike who they are as a person.</h5>
+                                <form>
+                                    <select id="q8">
+                                        <option value="">-- Select --</option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select> 
+                                </form>
+                                <h3>Question 9</h3>
+                                <h5>I like who they are as a person.</h5>
+                                <form>
+                                    <select id="q9">
+                                        <option value="">-- Select --</option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select> 
+                                </form>
+                                <h3>Question 10</h3>
+                                <h5>As a person, I am considered as an Introvert than an Extrovert.</h5>
+                                <form>
+                                    <select id="q10">
+                                        <option value="">-- Select --</option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select> 
+                                </form>
+                            </div>
+                            <br>
+                            <button type="button" class="btn btn-primary btn-md" 
+                            data-toggle="modal" data-target="#myModal" 
+                            id="search-btn"><span class="fa fa-search"></span> Submit Survey</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <br>
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Table Link</a>
+            </div>
+        </footer>
+	</div>
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                
+            </div>
+            <div class="modal-body" style="margin: 0 auto">
+                <h4 class="modal-title" id="matchName">Your perfect match is </h4>
+                <img id="matchImage"/>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    testCompatibility = function(personScore) {
+        var xScore = -9;
+        var yScore;
+        var match; 
+        $.get("/api/friends", function(data) {
+            if (data) {
+                for (var i = 0; i < data.length; i++){
+                    yScore = 0;
+                    for (var y = 0; y < 10; y++) {
+                        yScore -= Math.abs(personScore[y] - data[i].scores[y]);
+                    }
+                    if (yScore > xScore) {
+                        xScore = yScore;
+                        match = i;
+                    }
+                }
+            }
+            
+        $("#matchName").html("Your perfect match is " + data[match].name + "!!");
+        $("#matchImage").html("<img style=\"width:300px; margin: 0 auto; text-align: center\" src=\"" + data[match].photo + "\" />");
+        });
+    }
+    $("#search-btn").on('click', function() {
+      if ($("#name").val() == "" || 
+      $("#photo").val() == "" || 
+      $("#q1").val() == "" || 
+      $("#q2").val() == "" || 
+      $("#q3").val() == ""|| 
+      $("#q4").val() == ""|| 
+      $("#q5").val() == ""|| 
+      $("#q6").val() == ""|| 
+      $("#q7").val() == "" || 
+      $("#q8").val() == ""|| 
+      $("#q9").val() == ""|| 
+      $("#q10").val() == "") {
+            $("#matchName").html("Please fill in all fields");   
+            return;
+      }
+      
+      var theMatch = [];
+      theMatch.push(parseInt($("#q1").val()));
+      theMatch.push(parseInt($("#q2").val()));
+      theMatch.push(parseInt($("#q3").val()));
+      theMatch.push(parseInt($("#q4").val()));
+      theMatch.push(parseInt($("#q5").val()));
+      theMatch.push(parseInt($("#q6").val()));
+      theMatch.push(parseInt($("#q7").val()));
+      theMatch.push(parseInt($("#q8").val()));
+      theMatch.push(parseInt($("#q9").val()));
+      theMatch.push(parseInt($("#q10").val()));
+    
+      var newFriend = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        scores: theMatch
+      };
+      testCompatibility(theMatch);
+      $.post("/api/friends", newFriend, function(data) {
+          console.log("add.html", data);
+          if (data == true) {
+          alert("Adding friend...");
+          } else if (data == false){
+              alert ("Failed");
+          }
+		  $('#name').val("");
+          $('#photo').val("");
+          $('#q1').val("");
+		  $('#q2').val("");
+		  $('#q3').val("");
+          $('#q4').val("");
+          $('#q5').val("");
+		  $('#q6').val("");
+		  $('#q7').val("");
+          $('#q8').val("");
+          $('#q9').val("");
+		  $('#q10').val("");
+          location.reload();
+      });
+    });
+</script>
+</html>
